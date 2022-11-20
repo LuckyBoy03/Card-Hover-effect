@@ -1,0 +1,38 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-image: url(bgimg.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1.3s ease all;
+    /* background-position: center; */
+}
+
+.card h1 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    padding: 15px;
+    opacity: 0;
+
+}
+
+.card:hover h1 {
+    opacity: 1;
+    transition: 1.3s ease all;
+}
+
+.card:hover {
+    background-size: 550px;
+}
